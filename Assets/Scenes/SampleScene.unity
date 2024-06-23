@@ -334,7 +334,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acb9b2ee1eb59394d8adc0247a46432c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _button: {fileID: 401417632}
+  _buttonDamage: {fileID: 401417632}
   _health: {fileID: 1035794131}
 --- !u!1 &442426995
 GameObject:
@@ -631,7 +631,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0763bf1d676aff84795e12345105ca3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _button: {fileID: 588582761}
+  _buttonHeal: {fileID: 588582761}
   _health: {fileID: 1035794131}
 --- !u!1 &776935910
 GameObject:
@@ -829,8 +829,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f523ac04182c33840a695076473f6a14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _slider: {fileID: 981704195}
   _health: {fileID: 1035794131}
+  _slider: {fileID: 981704195}
 --- !u!114 &981704195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1363,8 +1363,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c252399d27e68947bdc77adc01afeb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _slider: {fileID: 1700675270}
   _health: {fileID: 1035794131}
+  _slider: {fileID: 1700675270}
 --- !u!1 &1747251889
 GameObject:
   m_ObjectHideFlags: 0
@@ -1513,8 +1513,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 124b7d3809ef0a542a972f55b65230e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _textMeshPro: {fileID: 1747251891}
   _health: {fileID: 1035794131}
+  _textMeshPro: {fileID: 1747251891}
 --- !u!1 &1754748803
 GameObject:
   m_ObjectHideFlags: 0

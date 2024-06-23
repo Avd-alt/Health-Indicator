@@ -3,19 +3,19 @@ using UnityEngine.UI;
 
 public class ButtonHeal : MonoBehaviour
 {
-    [SerializeField] private Button _button;
+    [SerializeField] private Button _buttonDamage;
     [SerializeField] private Health _health;
 
     private float _healthRestore = 10;
 
     private void OnEnable()
     {
-        _button.onClick.AddListener(Heal);
+        _buttonDamage.onClick.AddListener(Heal);
     }
 
     private void OnDisable()
     {
-        _button.onClick.RemoveListener(Heal);
+        _buttonDamage.onClick.RemoveListener(Heal);
     }
 
     private void Heal()
